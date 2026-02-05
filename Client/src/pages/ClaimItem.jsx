@@ -9,7 +9,7 @@ const ClaimItem = () => {
     const [foundItems, setFoundItems] = useState([])
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState(null)
-    const [successMessage, setSuccessMessage] = useState(null)
+    const [successMessage, setSuccessMessage] = useState(null) 
     const [otpInput, setOtpInput] = useState('')
     const [itemIdInput, setItemIdInput] = useState('')
     const [searching, setSearching] = useState(false)
