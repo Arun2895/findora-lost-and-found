@@ -1,2 +1,61 @@
-# findora-lost-and-found
-Findora connects lost items with their rightful owners through a secure, smart and reliable digital lost-and-found ecosystem.
+# 🔍 Findora – Lost and Found Platform
+
+Findora is a peer-to-peer lost-and-found platform built on a centralized server that leverages computer vision to convert images of found items into structured text transcripts, which are securely stored in a database.
+Individuals who have lost an item describe it in textual form, and humanized matching filters intelligently compare lost and found records to identify potential matches. To ensure security and reliability during item recovery, OTP-based authorization is implemented for user verification.
+
+---
+
+## 🌟 Features
+
+- 📌 Report lost items with detailed information  
+- 📦 Register found items easily  
+- 🔄 Smart matching between lost and found reports  
+- 🤖 AI-assisted analysis using Google Gemini  
+- 🔐 Secure authentication and data handling  
+- 🧾 QR code integration for fast item identification  
+- 🌐 Clean and responsive user interface  
+
+---
+## 🎨 User Interface Preview
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c68175a5-b71e-4813-b87f-34c39ce86f0c" alt="Findora UI Preview" width="800"/>
+</p>
+
+---
+
+## 🧠 How It Works
+
+1. Users sign up or log in securely using Firebase Authentication.  
+2. A user reports a **lost** or **found** item with details like category, location, and description.  
+3. Item data is stored securely in Firestore, with images saved in Firebase Storage.  
+4. Google Gemini AI assists in intelligently matching lost and found items.  
+5. QR codes can be used to quickly identify and verify items.  
+6. Once a match is confirmed, the item is safely returned to its owner.
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React + Vite, Tailwind CSS  
+- **Backend:** Express.js  
+- **Authentication:** Firebase Authentication  
+- **Database:** Firebase Firestore  
+- **Storage:** Firebase Storage  
+- **AI Integration:** Google Gemini AI  
+- **Utilities:** QR Code generation and scanning  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js  
+- Git  
+- Firebase project setup  
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/findora-lost-and-found.git
+cd findora-lost-and-found
